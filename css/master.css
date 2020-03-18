@@ -1,6 +1,11 @@
-#tableContainer {
+/* #tableContainer {
   display: table;
 }
+
 table, th, td {
   border: thin solid black;
+} */
+
+table img {
+  border-radius: 100%;
 }
