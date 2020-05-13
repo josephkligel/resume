@@ -4,70 +4,307 @@
 <head>
   <meta charset="utf-8">
   <title>Joseph's Personal Site</title>
-  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/2ebdf09e40.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img class="profImg" src="images/joseph-professional-photo.jpg" alt="Profile Picture of Joseph Kligel"></td>
-      <td>
-        <h1>Joseph Kligel</h1>
-        <p><em><strong>Software programer</strong> with a keen knowledge of finance</em></p>
-        <p>I am a web developer and Python programmer. I love travelling and exploring.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Illinois State University</li>
-    <li>Thammasat University</li>
-    <li>Liberty University</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li> <a href="#certsAndProjects">Certification/Projects</a> </li>
+        <li><a href="#footer">Contact Me</a></li>
+      </ul>
+    </nav>
+
+<div class="profile">
+  <img class="profImg" src="images/joseph-professional-photo.jpg" alt="Profile Picture of Joseph Kligel">
+  <h1>Joseph Kligel</h1>
+  <p><em><strong>Software programer</strong> with a keen knowledge of finance</em></p>
+  <p>I am a fullstack programmer with strengths in Python, JavaScript, HTML/CSS and Bash Shell. Outside of programming, I also love travelling and exploring. <br>I have explored, lived, worked, and even attended college in several
+    Asian countries, such as Thailand, Phillipines, Vietnam, and China. If you would like to know more about me, you can visit this link <a href="hobbies.html">My Hobbies</a>.
+</div>
+
+    <!-- <table class='tableCellSpacing'>
       <tr>
-        <td>2019-2020</td>
-        <td>English Teacher at Firstleap</td>
+        <td><img class="profImg" src="images/joseph-professional-photo.jpg" alt="Profile Picture of Joseph Kligel"></td>
+        <td>
+          <h1>Joseph Kligel</h1>
+          <p><em><strong>Software programer</strong> with a keen knowledge of finance</em></p>
+          <p>I am a fullstack programmer with strengths in Python, JavaScript, HTML/CSS and Bash Shell. <br /> Outside of programming, I also love travelling and exploring. <br>I have explored, lived, worked, and even attended college in several
+            Asian countries, e.g. Thailand, Phillipines, Vietnam, and China. <br> If you would like to know more about me, you can visit this link <a href="hobbies.html">My Hobbies</a>.
+          </p>
+        </td>
       </tr>
-      <tr>
-        <td>2015-2017</td>
-        <td>Security Guard at Lincoln College</td>
-      </tr>
-    </tbody>
-  </table>
+    </table> -->
+  </header>
+
   <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>HTML</td>
-      <td>&#11088;&#11088;&#11088;</td>
-      <td>Python</td>
-      <td>&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>&#11088;&#11088;&#11088;</td>
-      <td>Java</td>
-      <td>&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>&#11088;&#11088;</td>
-      <td>SQL</td>
-      <td>&#11088;&#11088;</td>
-    </tr>
-  </table>
+
+  <section id="education">
+    <table class="educationTable tableCellSpacing">
+      <thead>
+        <h3>Education</h3>
+        <tr>
+          <th onclick=clickedList()>Years Attended</th>
+          <th>School</th>
+          <th>Location</th>
+          <th>Award</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2016-2018</td>
+          <td>Illinois State University</td>
+          <td>Normal, Illinois</td>
+          <td>Bachelor's Degree in Finance, General</td>
+          <td>
+            <a target="_blank" href="images/Bachelor_s degree of Finance.jpg">
+              <img class="thumbnail" src="images/Bachelor_s degree of Finance.jpg" alt="Bachelor's Degree in Finance">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>2017-2018</td>
+          <td>Thammasat University</td>
+          <td>Bangkok, Thailand</td>
+          <td>Two Semesters Abroad</td>
+        </tr>
+        <tr>
+          <td>2014-2016</td>
+          <td>Liberty University</td>
+          <td>Lynchburg, Virgina</td>
+          <td>Associate's Degree in Business, General</td>
+          <td>
+            <a target="_blank" href="images/Liberty Associate of Arts degree in Business Management.jpg">
+              <img class="thumbnail" src="images/Liberty Associate of Arts degree in Business Management.jpg" alt="Bachelor's Degree in Finance">
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
   <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact Me</a>
+
+  <section id="work">
+    <table class="workTable" cellspacing=20>
+      <thead>
+        <h3>Work Experience</h3>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2019-2020</td>
+          <td>English Teacher at Firstleap</td>
+        </tr>
+        <tr>
+          <td>2015-2017</td>
+          <td>Security Guard at Lincoln College</td>
+        </tr>
+        <tr>
+          <td>2015-2016</td>
+          <td>Security Officer at Lincoln College</td>
+        </tr>
+        <tr>
+          <td>2014-2015</td>
+          <td>Maintenance Associate at Walmart</td>
+        </tr>
+        <tr>
+          <td>2013-2014</td>
+          <td>Cook at El Chico Restaurant</td>
+        </tr>
+        <td>2013-2013</td>
+        <td>Sale Associate at Conway Services</td>
+        <tr>
+          <td>2008-2011</td>
+          <td>Surgical Technician in the Navy</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="skills">
+    <table class="skillsTable tableCellSpacing">
+      <thead>
+        <h3>Skills</h3>
+        <p>Listed from best to worst</p>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i class="fab fa-python fa-2x" style="color: gold"></i>Python</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+          <td><i class="fab fa-linux fa-2x" style="color: black"></i>Bash Shell and Linux</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+          <td><i class="fab fa-html5 fa-2x" style="color: orange"></i>HTML</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+          <td><i class="fab fa-css3-alt fa-2x" style="color: blue"></i>CSS</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-js fa-2x" style="color: brown"></i>JavaScript and Nodejs</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+          <td><img class="cLogo" style="height: 30px;" src="images/clogo.png" alt="C programming Logo">C Programming Language</td>
+          <td>&#11088;&#11088;&#11088;</td>
+          <td><img class="sqlLogo" style="height: 30px;" src="images/mysqllogo.png" alt="MySQL Logo">SQL</td>
+          <td>&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <td><img class="mysqlLogo" style="height: 30px;" src="images/mongodblogo.png" alt="MongoDB Logo">MongoDB</td>
+          <td>&#11088;&#11088;</td>
+          <td><i class="fab fa-java fa-2x" style="color: blue"></i>Java</td>
+          <td>&#11088;&#11088;</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <table class="accolades tableCellSpacing">
+      <thead>
+        <h3>Accolades</h3>
+        <th>Name</th>
+        <th>Award</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dean's List Illinois State University</td>
+          <td>
+            <a target="_blank" href="images/Dean_s List 20170218_141520.jpg">
+              <img class='thumbnail' src="images/Dean_s List 20170218_141520.jpg">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Beta Gamma Achievement Award</td>
+          <td>
+            <a target="_blank" href="images/Beta Gamma Sigma Certificate.jpg">
+              <img class="thumbnail" src="images/Beta Gamma Sigma Certificate.jpg">
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="certsAndProjects">
+    <table class="tableCellSpacing">
+      <thead>
+        <h3>Certifications and Projects</h3>
+        <tr>
+          <th>Name</th>
+          <th>Certifications</th>
+          <th>Projects<br />(Made by Joseph Kligel)</th>
+          <th>Specialties</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Python</td>
+          <td>
+            <ul>
+              <li>
+                <a target="_blank" href="images/Programming/Python_certificate.jpg">
+                  Python Certification - Basics
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Building Tools with Python.pdf">
+                  Python Command Line and Graphical Tools
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Using Python for Automation.pdf">
+                  Python Automation Tasks
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Advanced Python.pdf">
+                  Advanced Python Certification
+                </a>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <a href="https://github.com/zigjag/python_programs#readme">Python Programs</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GNU/Linux</td>
+          <td>
+            <ul>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Cert Prep_ Red Hat Certified System Administrator (EX200).pdf">
+                  System Administration with Red Hat
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Cert Prep_ Red Hat Certified System Administrator (EX200) (1).pdf">
+                  CompTIA Approved System Administration Certification
+                </a>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <a href="https://github.com/zigjag/bash#readme">Bash Scripts for GNU/Linux</a>
+          </td>
+        </tr>
+        <tr>
+          <td>C Programming</td>
+          <td>
+            <ul>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Learning C.pdf">
+                  C Programming Certification
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="images/Programming/CertificateOfCompletion_Learning C (1).pdf">
+                  NASBA Approved Certification of C Programming
+                </a>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <a href="http://github.com/zigjag/c_programs#readme">C Programs</a>
+          </td>
+        </tr>
+        <tr>
+          <td>English Teaching</td>
+          <td>
+            <ul>
+              <li>
+                <a href="images/TN 1988-021 - Joseph Carl Kligel II - Professional TEFL Certification.pdf">
+                  TEFL Certification
+                </a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <footer id="footer">
+    <div class="contact">
+      <a href="mailto:jkligel@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/joseph-kligel-15b10498">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <p><small>©2020 Joseph Kligel.</small></p>
+    </div>
+    <!-- <a href="contact.html">Contact Me</a> -->
+  </footer>
 </body>
 
 </html>
