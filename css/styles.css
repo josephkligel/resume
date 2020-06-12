@@ -70,6 +70,10 @@ hr{
   margin-right: 30px;
 }
 
+#certsAndProjects a{
+  display: block;
+}
+
 #footer{
   text-align: center;
 }
