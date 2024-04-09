@@ -1,0 +1,550 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Joseph Kligel",
+    "label": "A full-stack developer and software developer with over 6 years of experience. Have created and currently developing many web applications using Python and Flask, MERN, Java Spring Boot, and more. Hobby: x86 Assembly",
+    "image": "",
+    "email": "jkligel@gmail.com",
+    "phone": "9013908297",
+    "url": "https://josephkligel.github.io/resume",
+    "summary": "I love full-stack developing and am avid software engineer well-versed in GNU/Linux, Bash, HTML, CSS, JavaScript, Node.js, MongoDB, SQL, Python, and C++/C. I have built many projects in these languages and they can be viewed on https://github.com/josephkligel in the repositories section. If you would like to view my knowledge in these programming fields, I have lists of my knowledge on https://github.com/josephkligel/Programmapedia.",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "josephkligel",
+        "url": "https://www.linkedin.com/in/josephkligel/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Kirkland's",
+      "position": "Junior Software Developer",
+      "startDate": "2024-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "I develop software for key WMS functionalities through the HJ1 system. This software includes interfacing with Oracle, creating universally stored procedures for daily workloads, adding features to the HJ1 system, and troubleshooting/fixing errors in WMS.",
+      "url": "https://www.linkedin.com/company/kirkland%27s-home/",
+      "location": "Jackson, Tennessee, United States"
+    },
+    {
+      "name": "Kirkland's",
+      "position": "IT Help Desk Technician",
+      "startDate": "2023-07-31",
+      "endDate": "2024-01-31",
+      "highlights": [],
+      "summary": "Serve as the first point of contact for customers seeking technical assistance over the phone or email\n\nPerform remote troubleshooting through diagnostic techniques and pertinent questions\n\nDetermine the best solution based on the issue and details provided by customers\n\nDirect unresolved issues to the next level of support personnel\n\nProvide accurate information on IT products or services\n\nRecord events and problems and their resolution in logs\n\nFollow-up and update customer status and information\n\nIdentify and suggest possible improvements on procedures\n\nUpdate, create, update, and delete product records with SQL Server",
+      "url": "https://www.linkedin.com/company/kirkland%27s-home/",
+      "location": "Jackson tn"
+    },
+    {
+      "name": "Coding Dojo",
+      "position": "Developer in Training",
+      "startDate": "2022-11-30",
+      "endDate": "2023-08-31",
+      "highlights": [],
+      "summary": "Developer stacks: Web-Fundamentals, Python, MERN, and Java. Created and maintained software and web applications using back-end/front-end programming languages, APIs, frameworks, and database technologies, such as MySQL, MongoDB, Java Spring Boot, JavaScript, HTML, CSS, Bootstrap, Python, Flask, and more.",
+      "url": "https://www.linkedin.com/school/codingdojo/"
+    },
+    {
+      "name": "Alphatec Spine",
+      "position": "Field Services Engineer",
+      "startDate": "2022-03-31",
+      "endDate": "2023-03-31",
+      "highlights": [],
+      "summary": "Install and maintain low-dosage x-ray machines. Troubleshoot, maintain, and create applications for x-ray machine management and work procedures. \nRepaired high-value X-Ray machines to ensure the mechanical and software functions of the machines worked as expected.\nAssembled troubleshooting guides and developed full-stack software to record machine data (such as part functionality, part consumption, part failures, issue resolutions) using Python, C/C++ and MySQL. The purpose of which was to establish a system for understanding the new EOS Edge X-Ray machine during its development and testing phases.\nMaintained code bases, software, and firmware using programming languages like Python, PowerShell, and Bash to established communication and proper management of X-Ray machines and their components.\nInstalled frameworks and dependencies on machines for the purpose of making the programs and software work effectively.",
+      "url": "https://www.linkedin.com/company/alphatec-spine/",
+      "location": "United States"
+    },
+    {
+      "name": "Self Employed",
+      "position": "Options Trader",
+      "startDate": "2020-08-31",
+      "endDate": "2022-12-31",
+      "highlights": [],
+      "summary": "Traded put and call options on RobinHood and made income that way.\nMade income on the side, daily while also working at FedEx Tech Center",
+      "url": "https://www.linkedin.com/company/indpendent-contractor/",
+      "location": "Memphis, Tennessee, United States"
+    },
+    {
+      "name": "FedEx",
+      "position": "Electronic Technician/Programmer",
+      "startDate": "2020-12-31",
+      "endDate": "2022-03-31",
+      "highlights": [],
+      "summary": "Started through a temp job agency working at FedEx Tech and then got the job full-time working directly for FedEx Tech.\nProgram scanners and printers, fix them, and test them. Create applications to make repair workflows easier.\nMaintained firmware and embedded programming using Assembly, C/C++, and proprietary languages like Zebra’s Programming Language (ZPL) to fix various electronic devices.\nEngineered computer and device scripts using Python, Node.js, C/C++, PowerShell, and Bash to automate tasks and provide proper feedback to changes made to devices, after their repair.\nDeveloped websites and databases using JavaScript, HTML/CSS, and MySQL to keep track of repairs and part lists on devices.",
+      "url": "https://www.linkedin.com/company/fedex/",
+      "location": "Collierville, Tennessee, United States"
+    },
+    {
+      "name": "Hipudding Education",
+      "position": "English Teacher/IT Support",
+      "startDate": "2019-01-31",
+      "endDate": "2020-08-31",
+      "highlights": [],
+      "summary": "Assistance and maintenance with computer hardware and systems, install and updating software, upgrading operating systems, setting up virtual machines, configuring networks and password creation, repairing and fixing computers and other electronics",
+      "url": "",
+      "location": "Dalian, Liaoning, China"
+    },
+    {
+      "name": "Blogger and Day Trader",
+      "position": "Blogger and Day Trader",
+      "startDate": "2018-01-31",
+      "endDate": "2018-12-31",
+      "highlights": [],
+      "summary": "Wrote about stocks, companies and their fundamentals, value investing, mutual fund and ETF investing, day trading using retail trading platform and made market predictions. Traded, options, currency, stocks, and cryptocurrencies on margin. I turned $5,000 into roughly $21,000, over 420% profit in one year.",
+      "url": "",
+      "location": "NCR - National Capital Region, Philippines"
+    },
+    {
+      "name": "Lincoln College - Normal",
+      "position": "Security Officer/IT Support Associate",
+      "startDate": "2015-03-31",
+      "endDate": "2016-07-31",
+      "highlights": [],
+      "summary": "Security officer duties. Performed IT duties while a security officer, such as computer and operation support, desktop support, responding to incoming requests for IT issues, help in solving network issues, updating software, maintaining and backing up files and other resources.",
+      "url": "https://www.linkedin.com/school/lincoln-college-1865/"
+    },
+    {
+      "name": "Walmart",
+      "position": "Maintenance Technician",
+      "startDate": "2014-02-28",
+      "endDate": "2014-03-31",
+      "highlights": [],
+      "summary": "Performed routine maintenance procedures and helped troubleshoot and quickly repair any mechanical or electrical problems.",
+      "url": "https://www.linkedin.com/company/walmart/",
+      "location": "Bartlett, Tennessee"
+    },
+    {
+      "name": "Conway Services",
+      "position": "Sales Associate",
+      "startDate": "2013-02-28",
+      "endDate": "2013-08-31",
+      "highlights": [],
+      "summary": "HVAC Sales Associate sells HVAC retail products, goods, and services. HVAC sales associates work with customers to find what they want, ensure a smooth sales process and process transactions.",
+      "url": "https://www.linkedin.com/company/conway-services/"
+    },
+    {
+      "name": "US Navy",
+      "position": "Surgical Technician/Urological Technician",
+      "startDate": "2008-10-31",
+      "endDate": "2011-10-31",
+      "highlights": [],
+      "summary": "Assists medical officer in carrying out surgical techniques. Provides nursing care, safety and support to patients before, during and after surgery. Selects, sterilizes and prepares instruments and materials and the aseptic environment necessary for surgery. Assists anesthetist during operating procedures in giving artificial respiration and in the use of resuscitators. Maintains surgical equipment and records. Assists with instruction, supervision, and evaluation of students and other corpsmen assigned duties relating to surgery.\nAssists medical officer in examination and treatment of urological patients. Operates and maintains urological equipment and appliances. Performs urological X ray procedures. Prepares supplies, instruments, dressings, and utensils for urological operations and treatments.",
+      "url": "https://www.linkedin.com/company/us-navy/",
+      "location": "Portsmouth, virginia"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Crosswinds Community Church",
+      "position": "Event Planner",
+      "startDate": "2016-09-30",
+      "endDate": "2016-09-30",
+      "summary": "Lead community get-together, organized festival, performed maintenance on machines, planned and conducted recreational activities for participants, and kept order. ",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/2995625"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Illinois State University",
+      "area": "Finance, General",
+      "studyType": "Bachelor of Science (B.S.)",
+      "startDate": "2016-12-31",
+      "endDate": "2018-12-31",
+      "score": "3.72",
+      "courses": [
+        "MAT 121 - Applied Calculus",
+        "JPN 112 - 1st Year Japanese (Part 2)",
+        "BUS 100 - Business Enterprise",
+        "JPN 111 - 1st Year Japanese (Part 1)",
+        "MAT 120 - Finite Mathematics"
+      ]
+    },
+    {
+      "institution": "Liberty University",
+      "area": "Business Administration and Management, General",
+      "studyType": "Associate of Arts (A.A.)",
+      "startDate": "2014-12-31",
+      "endDate": "2016-12-31",
+      "score": "3.93",
+      "courses": [
+        "ENGL 102 - Composition and Literature",
+        "MATH 115 - Mathematics for Liberal Arts",
+        "APOL 104 - Contemporary Worldviews",
+        "BUSI 424 - E-Commerce",
+        "CLST 100 - Foundations of Academic Success",
+        "PLAW 200 - Introduction to Paralegal Studies",
+        "BUSI 201 - Intermediate Business Computer Applications",
+        "BUSI 300 - Business Communications",
+        "BUSI 303 - International Business"
+      ]
+    },
+    {
+      "institution": "Northcentral University",
+      "area": "Computer Science",
+      "studyType": "Master's degree",
+      "startDate": "2020-01-31",
+      "endDate": "2022-03-31",
+      "score": "3.93",
+      "courses": []
+    },
+    {
+      "institution": "Thammasat University",
+      "area": "Finance and Financial Management Services",
+      "studyType": "",
+      "startDate": "2017-12-31",
+      "endDate": "2017-12-31",
+      "score": "3.17 G.P.A. ",
+      "courses": [
+        "FN 311 - Financial Management",
+        "FN 211 - Financial Markets",
+        "ER 211 - Introduction to Entrepreneurship"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Graduate Cum Laude and won numerous scholarships",
+      "date": "2018-12-31",
+      "awarder": "Illinois State University",
+      "summary": "Have won many scholarships while attending Illinois State University because of dedication to community and high academic prestige"
+    },
+    {
+      "title": "Dean's List",
+      "date": "2018-08-31",
+      "awarder": "Illinois State University",
+      "summary": ""
+    },
+    {
+      "title": "Dean's List",
+      "date": "2017-01-31",
+      "awarder": "Illinois State University",
+      "summary": ""
+    },
+    {
+      "title": "Dean's List",
+      "date": "2016-01-31",
+      "awarder": "Liberty University",
+      "summary": "This honor is awarded to full time students who have earned a 3.5 GPA or greater this term. It is due to the student's hard work and diligence he receives this award, thus, setting a precedent for a lifetime commitment to excellence in all aspects of his life. "
+    },
+    {
+      "title": "Dean's List",
+      "date": "2015-09-30",
+      "awarder": "Liberty University",
+      "summary": "This honor is awarded to full time students who have earned a 3.5 GPA or greater this term. It is due to the student's hard work and diligence he receives this award, thus, setting a precedent for a lifetime commitment to excellence in all aspects of his life. "
+    },
+    {
+      "title": "Dean's List",
+      "date": "2015-05-31",
+      "awarder": "Liberty University",
+      "summary": "This honor is awarded to full time students who have earned a 3.5 GPA or greater this term. It is due to the student's hard work and diligence he receives this award, thus, setting a precedent for a lifetime commitment to excellence in all aspects of his life. "
+    },
+    {
+      "title": "Dean's List",
+      "date": "2015-01-31",
+      "awarder": "Liberty University",
+      "summary": "This honor is awarded to full time students who have earned a 3.5 GPA or greater this term. It is due to the student's hard work and diligence he receives this award, thus, setting a precedent for a lifetime commitment to excellence in all aspects of his life. "
+    },
+    {
+      "title": "Global War on Terrorism Service Medal",
+      "date": "2010-10-31",
+      "awarder": "U.S. Navy",
+      "summary": "The award recognizes those military service members who have performed service in the War on Terror from September 11, 2001, to present date."
+    },
+    {
+      "title": "National Defense Service Medal",
+      "date": "2008-10-31",
+      "awarder": "U.S. Navy",
+      "summary": "Awarded to a service member who served on active duty during the Global War on Terrorism. "
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Python",
+      "issuer": "SoloLearn",
+      "endDate": "2019-10-31",
+      "startDate": "2019-10-31",
+      "url": "https://www.sololearn.com/Certificate/1073-12898694/pdf/"
+    },
+    {
+      "name": "Learning C",
+      "issuer": "LinkedIn",
+      "startDate": "2020-03-31",
+      "url": "https://www.linkedin.com/learning/certificates/207369b2118db5812dcea97382dc19141a03c2bdce45da94e7e537010c1973ad?trk=backfilled_certificate"
+    },
+    {
+      "name": "Advanced Python",
+      "issuer": "LinkedIn",
+      "startDate": "2020-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/73c0938d3bae1f73ba528f74e6d9535b302aa0138a5a8ddf4ff5b55b1aabf5aa?trk=backfilled_certificate"
+    },
+    {
+      "name": "Using Python for Automation",
+      "issuer": "LinkedIn",
+      "startDate": "2020-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/a7d1501a0d9787500e625b904724ef92544cf72e4169fb54f1f990f7eefde70b?trk=backfilled_certificate"
+    },
+    {
+      "name": "Cert Prep: Red Hat Certified System Administrator (EX200)",
+      "issuer": "LinkedIn",
+      "startDate": "2020-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/e1071e5d027d6a9e6167d60cc17ad4fb84d93ae7050968810b1f5fb0512e7459?trk=backfilled_certificate"
+    },
+    {
+      "name": "Building Tools with Python",
+      "issuer": "LinkedIn",
+      "startDate": "2020-05-31",
+      "url": "https://www.linkedin.com/learning/certificates/da11a763464a359bc9e0e011f0dcdf26b4f73197a6f24945ef431e74b6859ce2?trk=backfilled_certificate"
+    },
+    {
+      "name": "Python GUI Development with Tkinter",
+      "issuer": "LinkedIn",
+      "startDate": "2020-05-31",
+      "url": "https://www.linkedin.com/learning/certificates/9c84ba57c0bc4101239392df871155047179bcabfda9c9f8e5046c0667da6c3e?trk=backfilled_certificate"
+    },
+    {
+      "name": "Learning Python Generators",
+      "issuer": "LinkedIn",
+      "startDate": "2020-05-31",
+      "url": "https://www.linkedin.com/learning/certificates/10fdd230ab29627e4773b140abd996d70e3ce2f0942156c115e2a3e52dd20bda?trk=backfilled_certificate"
+    },
+    {
+      "name": "Web Development Certification - HTML, CSS, Bootstrap, Web Design, JavaScript, ES6, Node.js,  and React.js",
+      "issuer": "Udemy",
+      "startDate": "2020-06-30",
+      "url": "https://www.udemy.com/certificate/UC-8b056a67-3ac9-472a-b177-aaddef67b30a/"
+    },
+    {
+      "name": "Node.js Certificate",
+      "issuer": "Udemy",
+      "startDate": "2020-07-31",
+      "url": "https://www.udemy.com/certificate/UC-ec904fa4-c260-44aa-849a-106c65e5bd8d/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Oracle Database",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Program Creation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HighJump",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML and CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nodejs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MERN Stack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-End Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "express",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Flask",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaServer Pages (JSP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring MVC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ejs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Express.js",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "English"
+    },
+    {
+      "fluency": "Limited Working",
+      "language": "Japanese"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
